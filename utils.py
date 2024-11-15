@@ -13,6 +13,7 @@ class Pars:
     boxsize: float
     repeat: int
     checkerror: bool
+    rotation: bool
 
     def __iter__(self):
         # Iterate over field names and values
